@@ -1,6 +1,7 @@
 package ru.netology.javacore.service;
 
 import ru.netology.javacore.configuration.ConfigApplication;
+import ru.netology.javacore.dao.OperationStore;
 import ru.netology.javacore.logger.Logger;
 import ru.netology.javacore.model.OperationType;
 import ru.netology.javacore.model.Query;
@@ -9,6 +10,7 @@ import ru.netology.javacore.operation.OperationTask;
 public class TaskService {
 
     private final ConfigApplication configApplication;
+
     private final Logger logger;
 
     public TaskService(ConfigApplication configApplication) {
